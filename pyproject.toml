@@ -1,10 +1,10 @@
 [project]
 name = "py-paramstream"
-version = "0.0.1"
+version = "0.0.2"
 description = "Python wrapper for the R package param.stream"
 readme = "README.md"
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = { file = "LICENSE" }
 authors = [{ name = "Benjamin Vallin", email = "ben.vallin@gmail.com" }]
 
 classifiers = [
@@ -24,7 +24,7 @@ dependencies = [
 Homepage = "https://github.com/benvallin/py-paramstream"
 
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
