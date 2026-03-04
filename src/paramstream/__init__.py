@@ -1,17 +1,19 @@
 """
-Python wrapper for the R package `param.stream`.
+
+Python wrapper for the R package `paramstream`.
+
 """
 
 from .core import (
-  get_params_log_id_from_dict,
-  write_params_log_from_dict,
-  get_params_log_table
+  get_param_log_id,
+  write_param_log,
+  get_param_log_table
   )
 
 __all__ = [
-  'get_params_log_id_from_dict',
-  'write_params_log_from_dict',
-  'get_params_log_table'
+  'get_param_log_id',
+  'write_param_log',
+  'get_param_log_table'
   ]
 
 from importlib.metadata import version, PackageNotFoundError

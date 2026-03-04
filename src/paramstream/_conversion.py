@@ -15,12 +15,12 @@ def _get_paramstream_r():
   
   try:
     
-    return importr('param.stream')
+    return importr('paramstream')
   
   except Exception as e:
     
     raise ImportError(
-      "R package 'param.stream' is not installed or R is not available."
+      "R package 'paramstream' is not installed or R is not available."
       ) from e
     
         
